@@ -9,8 +9,9 @@ body {
 
 }
 #menu_superior{
-	background-color: black;
     background: url(../img/na-bg.jpg) center center fixed; 
+    background-color: rgba(0, 0, 0, 0.6);
+
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -32,9 +33,9 @@ body {
 .div_contindentes{
     text-align: center;
     background-color: rgba(0, 0, 0, 0.6);
-    padding: 2px;
     border-radius: 5px;
-    text-decoration-color: 
+    color: white;
+    padding: 5px;
 
 }
 .img_batalla_jugador{
@@ -42,4 +43,15 @@ body {
 }
 .img_batalla_enemigo{
     float: right;
+}
+footer{
+    color: white;
+}
+.selec_contendiente{
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 5px;
+    color: white;
+    padding: 5px;
+
 }
